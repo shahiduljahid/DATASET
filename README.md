@@ -15,6 +15,5 @@
 
 - [🔗 Model 1](https://share.weiyun.com/d4PWOT67)
   - Description: Model 1 for download.
-- Model 2
   - ![🔍 QR Code for Model 2](./our_cnn_model.png)
     - Description: QR code for downloading our CNN model (YOLOV1) for classification (class 6 experiment).
