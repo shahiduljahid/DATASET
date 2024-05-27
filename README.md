@@ -1,24 +1,20 @@
 ## Datasets 🍎🚁📦
 
-Here's a breakdown of the datasets used in the experiments:
-
-**1. Apple Datasets** 🍎
-
-- **🍎 Apple Dataset:**  `./apple/`
+- **🍎 Apple Dataset:**  [Apple Dataset](./apple/)
   - **Description:** Images of various apple types. 
-- **📄 Apple Dataset with XML Annotation:** `./appledataset/`
+- **📄 Apple Dataset with XML Annotation:** [Apple Dataset with XML Annotation](./appledataset/)
   - **Description:**  XML annotated dataset for format conversion experiments.
-- **🖼️ Apple Dataset with Images:** `./appledataset_with_img/`
+- **🖼️ Apple Dataset with Images:** [Apple Dataset with Images](./appledataset_with_img/)
   - **Description:** Images of apples for CNN experimentation.
 
 **2. Drone Dataset** 🚁
 
-- **🚁 Drone Dataset:** `./appledataset/`
+- **🚁 Drone Dataset:** [Drone Dataset](./drone//)
   - **Description:**  Images captured by drones for object detection.
 
 **3. VOC Dataset** 📦
 
-- **📦 VOC Dataset:** `./appledataset/`
+- **📦 VOC Dataset:**[📦 VOC Dataset](./VOCdevkit/)
   - **Description:**  VOC format dataset for format conversion experiments.
 
 ## Models 🧠
@@ -37,7 +33,25 @@ These parameters were used to train Model 1:
 
 - `LEARNING_RATE = 3e-5`
 - `DEVICE = "cpu"`
-- `BATCH_SIZE = 32`  (Original paper uses 64, but resource exhausted error occurred otherwise.)
+- `BATCH_SIZE = 32`
 - `WEIGHT_DECAY = 0`
 - `EPOCHS = 20`
 - `NUM_WORKERS = 8` 
+
+- **Model 2 Download:** [🔗 Model 2](https://share.weiyun.com/7dsljRk8)
+  - **Description:**  Download the trained fast-r-CNN model.
+
+  ![🔍 QR Code for Model 2](./our_fast_r_cnn_model.png)
+  - **Description:** QR code for downloading the FAST-R-CNN model for classification (CLASS 7 experiment).
+
+**Model Parameters:** ⚙️
+
+These parameters were used to train Model 1:
+
+- `n_epochs = 5`
+- `lr=0.005`
+- `momentum=0.9`
+- `weight_decay=5e-4`
+- `train_batch_size=4`
+- `test_batch_size=4` 
+
