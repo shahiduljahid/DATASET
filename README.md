@@ -116,10 +116,10 @@ and trained the model with GPU in Google Colab. Here is the Colab code:
 
 ### **Model 5: 6 Different model with cityscape Dataset** 🌆
 ### **Model 5 Download:**
-- **Download Link:** [🔗 Model 5](https://share.weiyun.com/P4Hf6DhG)
+- **Download Link:** [🔗 Model 5](https://share.weiyun.com/fLoanosX)
 - **Description:** Download the `6 model` trained on cityscape data.
   
-  ![🔍 QR Code for Model 5](./our_unet1_model.png)
+  ![🔍 QR Code for Model 5](./city6Model.png)
   
 - **Description:** QR code for downloading `6 Different` for image segmentation (CLASS 8 3rd experiment).
 
